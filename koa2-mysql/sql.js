@@ -1,10 +1,10 @@
 var mysql = require('mysql');
 var config = {
-    host: '101.132.121.124',
-    user: 'root',
-    password: '123456',
-    port: '3306',
-    database: 'donglu'
+    host: '服务器IP',
+    user: '用户名',
+    password: '密码',
+    port: '端口号',
+    database: '表的名字'
 }
 var db = function(sql, params) {
     return new Promise((resolve, reject) => {
